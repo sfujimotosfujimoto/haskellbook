@@ -98,7 +98,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "addition-0.1.0.0-XzculcwkFM4Q1FUtqIheb"
+#define CURRENT_COMPONENT_ID "addition-0.1.0.0-BgMVpO4c4sBvrVYROcdgm"
 
-#define CURRENT_PACKAGE_KEY "addition-0.1.0.0-XzculcwkFM4Q1FUtqIheb"
+#define CURRENT_PACKAGE_KEY "addition-0.1.0.0-BgMVpO4c4sBvrVYROcdgm"
 

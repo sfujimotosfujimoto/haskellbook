@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/Users/sfujimoto/code/Haskell/HaskellBook/hangman/.stack-work/install/x86_64-osx/lts-8.13/8.0.2/bin"
-libdir     = "/Users/sfujimoto/code/Haskell/HaskellBook/hangman/.stack-work/install/x86_64-osx/lts-8.13/8.0.2/lib/x86_64-osx-ghc-8.0.2/hangman-0.1.0.0"
-dynlibdir  = "/Users/sfujimoto/code/Haskell/HaskellBook/hangman/.stack-work/install/x86_64-osx/lts-8.13/8.0.2/lib/x86_64-osx-ghc-8.0.2"
-datadir    = "/Users/sfujimoto/code/Haskell/HaskellBook/hangman/.stack-work/install/x86_64-osx/lts-8.13/8.0.2/share/x86_64-osx-ghc-8.0.2/hangman-0.1.0.0"
-libexecdir = "/Users/sfujimoto/code/Haskell/HaskellBook/hangman/.stack-work/install/x86_64-osx/lts-8.13/8.0.2/libexec"
-sysconfdir = "/Users/sfujimoto/code/Haskell/HaskellBook/hangman/.stack-work/install/x86_64-osx/lts-8.13/8.0.2/etc"
+bindir     = "/Users/sfujimoto/code/Haskell/HaskellBook/.stack-work/install/x86_64-osx/lts-8.16/8.0.2/bin"
+libdir     = "/Users/sfujimoto/code/Haskell/HaskellBook/.stack-work/install/x86_64-osx/lts-8.16/8.0.2/lib/x86_64-osx-ghc-8.0.2/hangman-0.1.0.0"
+dynlibdir  = "/Users/sfujimoto/code/Haskell/HaskellBook/.stack-work/install/x86_64-osx/lts-8.16/8.0.2/lib/x86_64-osx-ghc-8.0.2"
+datadir    = "/Users/sfujimoto/code/Haskell/HaskellBook/.stack-work/install/x86_64-osx/lts-8.16/8.0.2/share/x86_64-osx-ghc-8.0.2/hangman-0.1.0.0"
+libexecdir = "/Users/sfujimoto/code/Haskell/HaskellBook/.stack-work/install/x86_64-osx/lts-8.16/8.0.2/libexec"
+sysconfdir = "/Users/sfujimoto/code/Haskell/HaskellBook/.stack-work/install/x86_64-osx/lts-8.16/8.0.2/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "hangman_bindir") (\_ -> return bindir)
